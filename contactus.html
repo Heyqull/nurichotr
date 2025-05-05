@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NURICH OTR - Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --sunshine: #FFE17E;
+            --blue-iris: #5B5EA6;
+            --nasturtium: #FF6B6B;
+        }
+        .bg-sunshine { background-color: var(--sunshine); }
+        .bg-blue-iris { background-color: var(--blue-iris); }
+        .bg-nasturtium { background-color: var(--nasturtium); }
+        .text-blue-iris { color: var(--blue-iris); }
+        .text-sunshine { color: var(--sunshine); }
+        .hover-nasturtium:hover { background-color: var(--nasturtium); }
+        .bg-gradient-custom {
+            background: linear-gradient(to bottom, var(--blue-iris), #4a4d8c);
+        }
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <!-- Logo -->
+                <div class="flex items-center space-x-4">
+                    <img src="/images/logo.jpg" alt="NURICH OTR Logo" class="h-16">
+                    <span class="text-3xl font-extrabold text-blue-600 tracking-wide">NURICH OTR</span>
+                </div>
+                <!-- Navigation Links -->
+                <nav class="hidden md:flex items-center space-x-10">
+                    <a href="home.html#about" class="text-lg font-semibold text-blue-600 hover:text-yellow-500 transition-colors duration-300 transform hover:scale-105">
+                        Tentang kami
+                    </a>
+                    <a href="home.html#packages" class="text-lg font-semibold text-blue-600 hover:text-yellow-500 transition-colors duration-300 transform hover:scale-105">
+                        Program
+                    </a>
+                    <a href="#contact" class="text-lg font-semibold text-blue-600 hover:text-yellow-500 transition-colors duration-300 transform hover:scale-105">
+                        Hubungi kami
+                    </a>
+                </nav>
+            </div>
+            <a href="#" class="bg-blue-600 text-white px-8 py-3 rounded-lg shadow-lg hover:bg-yellow-500 transition-colors duration-300 transform hover:scale-105 font-semibold">
+                BOOK CONSULTATION
+            </a>
+        </div>
+    </header>
+
+    <!-- Team Section -->
+    <section class="pt-32 pb-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <!-- Section Header -->
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-4xl font-bold text-blue-iris mb-6">PASUKAN KAMI</p>
+                
+                <h2 class="text-4xl md:text-4xl font-bold text-blue-iris mb-6">Pakar Terapi Berpengalaman</h2>
+                <p class="text-xl text-gray-600">Kami komited untuk memberikan perkhidmatan terbaik untuk anak anda.</p>
+            </div>
+
+            <!-- Slideshow Container -->
+            <div id="slideshow-container" class="relative flex justify-center items-center w-full py-10">
+                <!-- Slide 1 -->
+                <div class="slide active flex justify-center items-center w-full">
+                    <div class="flex flex-col md:flex-row items-center justify-center">
+                        <div class="w-full md:w-2/3 relative">
+                            <div class="relative">
+                                <div class="absolute inset-0 bg-sunshine rounded-lg transform rotate-3"></div>
+                                <img src="/images/gal4.jpg" alt="Therapy session 1" 
+                                    class="relative z-10 rounded-lg shadow-xl transform -rotate-3 hover:rotate-0 transition-transform duration-300 w-full h-[500px] object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide hidden flex justify-center items-center w-full">
+                    <div class="flex flex-col md:flex-row items-center justify-center">
+                        <div class="w-full md:w-2/3 relative">
+                            <div class="relative">
+                                <div class="absolute inset-0 bg-sunshine rounded-lg transform rotate-3"></div>
+                                <img src="/images/gallery1.jpg" alt="Therapy session 2" 
+                                    class="relative z-10 rounded-lg shadow-xl transform -rotate-3 hover:rotate-0 transition-transform duration-300 w-full h-[500px] object-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+                    <!-- Navigation Dots -->
+                    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                        <button class="w-3 h-3 rounded-full bg-blue-600 dot active" data-slide="0"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-300 dot" data-slide="1"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="py-20 bg-gradient-custom">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <!-- Contact Info -->
+                <div class="text-white">
+                    <h2 class="text-4xl font-bold mb-8">Hubungi Kami</h2>
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Lokasi</h3>
+                            <p class="text-lg">Nurich OT & rehab centre - Autismterapi <br> Pasir Gudang, Johor
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Waktu Operasi</h3>
+                            <p class="text-lg">Isnin - Jumaat: 9:00 AM - 6:00 PM<br>Sabtu: 9:00 AM - 1:00 PM</p>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold mb-2">Hubungi</h3>
+                            <p class="text-lg">Tel: +011-55819276<br>Email: nurich.ntrc@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="mt-8 bg-black bg-opacity-40 rounded-xl p-6 shadow-lg">
+                    <h4 class="text-xl font-bold text-white mb-4">Media Sosial</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center space-x-3">
+                            <!-- WhatsApp Icon -->
+                            <svg class="w-6 h-6 text-green-500" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347"/><path d="M12.051 21.785h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            <span class="text-white">011-55819276</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Facebook Icon -->
+                            <svg class="w-6 h-6 text-blue-400" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.595 0 0 .592 0 1.326v21.348C0 23.408.595 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.918.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.408 24 22.674V1.326C24 .592 23.406 0 22.675 0"/></svg>
+                            <span class="text-white">@Nurichotr</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- TikTok Icon -->
+                            <svg class="w-6 h-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" rx="24" fill="#000"/><path d="M33.5 19.5c-2.5 0-4.5-2-4.5-4.5V12h-4v16.5a3 3 0 11-3-3c.2 0 .4 0 .5.1V22a7 7 0 107 7v-7.5c1.2 1 2.7 1.5 4.5 1.5v-4z" fill="#fff"/><path d="M29 12v3c0 2.5 2 4.5 4.5 4.5v-2A2.5 2.5 0 0131 15.5V12h-2z" fill="#25F4EE"/><path d="M33.5 21.5c-1.8 0-3.3-.5-4.5-1.5V29a7 7 0 11-7-7v2.6c-.2 0-.4-.1-.5-.1a3 3 0 103 3V12h2v3c0 2.5 2 4.5 4.5 4.5v2c-2.5 0-4.5-2-4.5-4.5V12h-2v16.5a3 3 0 11-3-3c.2 0 .4 0 .5.1V22a7 7 0 107 7v-7.5c1.2 1 2.7 1.5 4.5 1.5v-2z" fill="#FE2C55"/></svg>
+                            <span class="text-white">@nurich_otr / @nurich_eip_centre</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Instagram Icon -->
+                            <svg class="w-6 h-6 text-pink-400" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm4.25 3.25a5.25 5.25 0 110 10.5 5.25 5.25 0 010-10.5zm0 1.5a3.75 3.75 0 100 7.5 3.75 3.75 0 000-7.5zm5.25.75a1 1 0 110 2 1 1 0 010-2z"/></svg>
+                            <span class="text-white">@nurich_otr</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <!-- Blogger Icon -->
+                            <svg class="w-6 h-6 text-white" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" rx="8" fill="#FF8000"/><path d="M33.5 24c.8 0 1.5-.7 1.5-1.5V21c0-4.4-3.6-8-8-8h-5c-4.4 0-8 3.6-8 8v6c0 4.4 3.6 8 8 8h8c3.3 0 6-2.7 6-6v-2c0-.8-.7-1.5-1.5-1.5zm-12-4h7a1.5 1.5 0 010 3h-7a1.5 1.5 0 010-3zm10 8h-10a1.5 1.5 0 010-3h10a1.5 1.5 0 010 3z" fill="#fff"/></svg>
+                            <a href="https://autismterapi.com/blog/" class="text-white hover:underline" target="_blank">@autismterapi.com/blog/</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/601155819276" class="fixed bottom-8 right-8 bg-blue-600 rounded-full p-4 shadow-lg z-50 hover:bg-yellow-500 transition-colors duration-300 transform hover:scale-105">
+        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Team slideshow functionality
+            const teamSlides = document.querySelectorAll('#team-slideshow .slide');
+            const dots = document.querySelectorAll('.dot');
+            let currentTeamSlide = 0;
+
+            function showTeamSlide(index) {
+                teamSlides.forEach(slide => {
+                    slide.classList.remove('active');
+                    slide.classList.add('hidden');
+                });
+                dots.forEach(dot => {
+                    dot.classList.remove('bg-blue-600');
+                    dot.classList.add('bg-gray-300');
+                });
+                
+                teamSlides[index].classList.remove('hidden');
+                teamSlides[index].classList.add('active');
+                dots[index].classList.remove('bg-gray-300');
+                dots[index].classList.add('bg-blue-600');
+            }
+
+            function nextTeamSlide() {
+                currentTeamSlide = (currentTeamSlide + 1) % teamSlides.length;
+                showTeamSlide(currentTeamSlide);
+            }
+
+            // Add click events to dots
+            dots.forEach((dot, index) => {
+                dot.addEventListener('click', () => {
+                    currentTeamSlide = index;
+                    showTeamSlide(currentTeamSlide);
+                });
+            });
+
+            // Auto advance slides
+            setInterval(nextTeamSlide, 5000);
+        });
+    </script>
+</body>
+</html>
+
+<style>
+    .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .text-shadow-lg {
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const slides = document.querySelectorAll('#slideshow-container .slide');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            slides.forEach(slide => {
+                slide.classList.remove('active');
+                slide.classList.add('hidden');
+            });
+            slides[index].classList.remove('hidden');
+            slides[index].classList.add('active');
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        // Change slide every 3 seconds
+        setInterval(nextSlide, 3000);
+    });
+</script>
